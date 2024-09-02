@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/MabryPro-Regular.ttf');
+}
+
+body{
+  font-family: 'Regular';
+  background-color: black;
+  margin: 0px;
+}

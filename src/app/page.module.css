@@ -1,0 +1,39 @@
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body{
+    width: 51vw;
+}
+
+.introLine{
+    display: flex;
+    font-size: 6vw;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: white;
+}
+
+.introLine:nth-of-type(5), .introLine:nth-of-type(6){
+    display: inline-flex;
+}
+.introLine:nth-of-type(6){
+    right: -40px;
+    position: relative;
+}
+
+.introLine p{
+    margin: 0px;
+}
+
+.background{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0;
+}
